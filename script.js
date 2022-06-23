@@ -23,19 +23,18 @@ function myFunction() {
     }
 
 
-    else if(oper=!null){
+    else if(!oper){
         z="Error"
     }
-    else if(x=!null){
+    else if(!x){
         z="Error"
     }
-    else if(y=!null){
+    else if(!y){
         z="Error"
     }
      
 
-    alert(z) ;
-    }
-document.getElementById("demo").innerHTML=myFunction();
+alert (z);
+myFunction();
 
     
