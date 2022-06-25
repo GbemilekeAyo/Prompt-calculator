@@ -21,6 +21,10 @@ function myFunction() {
     if(oper=="*"){
         z=Number(x)*Number(y)
     }
+    
+    if(oper=="%"){
+        z=Number(x)%Number(y)
+    }
 
 
     else if(!oper){
